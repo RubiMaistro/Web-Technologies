@@ -1,2 +1,7 @@
 # Web-Technologies
-HTML
+- HTML
+- CSS
+- XML
+- XHTML
+- DTD
+- SCSS 
