@@ -1,0 +1,54 @@
+@import "cards.css";
+
+.cards {
+	position: absolute;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.card {
+	position: absolute;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#c1 {
+	transform: translate(0%);
+}
+
+#c2 {
+	transform: translate(110%);
+}
+
+#c3 {
+	transform: translate(220%);
+}
+
+#c4 {
+	transform: translate(330%);
+}
+
+.topLeft,
+.bottomRight {
+	display: inline-block;
+	text-align: center;
+}
+
+.topLeft {
+	position: absolute;
+	top: 0em;
+	left: 0.2em;
+}
+
+.center {
+	position: relative;
+	top: 2em;
+	left: 1.5em;
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 0em;
+	right: 0.2em;
+}
+

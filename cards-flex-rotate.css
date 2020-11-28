@@ -1,0 +1,35 @@
+@import "rotate.css";
+
+div.cards {
+	display: flex;
+	border-collapse: collapse;
+	transform: translate(35em, 7em);
+}
+
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.card:hover {
+	position: relative;
+	top: 4em;
+	right: 30em;
+	padding: 1.5em;
+	margin: 2em;
+}
+
+.topLeft,
+.bottomRight {
+	display: inline-block;
+	text-align: center;
+}
+
+.topLeft {
+	align-self: flex-start;
+}
+
+.bottomRight {
+	align-self: flex-end;
+}

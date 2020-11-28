@@ -1,0 +1,25 @@
+@import "rotate.css";
+
+.cards {
+	display: flex;
+}
+
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topLeft,
+.bottomRight {
+	display: inline-block;
+	text-align: center;
+}
+
+.topLeft {
+	align-self: flex-start;
+}
+
+.bottomRight {
+	align-self: flex-end;
+}
